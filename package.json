@@ -1,0 +1,19 @@
+{
+  "name": "lrdx-scripts",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Ludovic Radoux",
+  "license": "MIT",
+  "scripts": {
+    "looneyRename": "tsx src/looneyRename.mts",
+    "looneyMove": "tsx src/looneyMove.mts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tsx": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
